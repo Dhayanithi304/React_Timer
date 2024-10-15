@@ -1,0 +1,54 @@
+body {
+  font-size: 14px;
+}
+.company-box{
+  width: 80px;
+  height: 32px;
+  background-color: rgba(0, 0, 124, 0.943);
+}
+.start-btn,
+.stop-btn {
+  border-radius: 7px !important;
+  padding: 8px 35px;
+  font-weight: 500;
+  color: #fff;
+}
+.start-btn {
+  /* background-color: rgb(0, 179, 0); */
+  background-color: #03c100;
+}
+.stop-btn {
+  background-color: rgb(176, 5, 5);
+}
+
+.timer-body {
+  padding: 20px 30px;
+  background-color: rgb(241, 241, 241);
+  height: 60vh;
+}
+.startEnd-time {
+  width: 250px;
+}
+
+.timer-btn {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 15px 10px 10px;
+  cursor: pointer;
+}
+.disable-btn {
+  color: rgb(185, 185, 185) !important;
+}
+.pause-btn {
+  color: rgb(176, 5, 5);
+}
+.play-btn {
+  color: rgb(32, 32, 255);
+}
+.time-box{
+  background-color: rgb(255, 255, 230) !important;
+  padding: 8px 12px;
+  border: 1px solid black !important;
+  border-radius: 7px !important;
+  color: black !important;
+}
